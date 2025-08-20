@@ -22,6 +22,12 @@ namespace SAcom.ViewModels.Windows
                 Content = "Data",
                 Icon = new SymbolIcon { Symbol = SymbolRegular.DataHistogram24 },
                 TargetPageType = typeof(Views.Pages.DataPage)
+            },
+            new NavigationViewItem()
+            {
+                Content = "串口助手",
+                Icon = new SymbolIcon { Symbol = SymbolRegular.PlugConnected24 },
+                TargetPageType = typeof(Views.Pages.SerialPortPage)
             }
         };
 
